@@ -1,0 +1,401 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Merriweather', serif; }
+
+h2 {
+  text-align: center;
+  color: #3c3c3c;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 55px;
+  letter-spacing: -0.74px; }
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.symbol {
+  margin: 0 auto;
+  width: 253px;
+  height: 33px;
+  margin-top: 20px; }
+
+.menu {
+  display: flex; }
+  .menu ul li {
+    display: inline-block; }
+    .menu ul li a {
+      display: block;
+      padding: 16px 24px 14px;
+      color: #3c3c3c;
+      font-size: 18px;
+      font-weight: 400;
+      text-decoration: none;
+      border: 1px solid transparent; }
+      .menu ul li a:hover {
+        border: 1px solid #3c3c3c; }
+
+.container {
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+header {
+  border-top: 0.1px solid transparent;
+  background-image: url("../images/foodiesfeed.com__decorative-pumpkins5.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%; }
+  header .container {
+    position: relative;
+    height: 100vh; }
+    header .container .header {
+      margin-top: 30px; }
+      header .container .header .menu {
+        justify-content: flex-end; }
+        header .container .header .menu .icon {
+          display: none; }
+    header .container .header_information {
+      position: absolute;
+      top: 50%;
+      right: 5%;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end; }
+    header .container .header__text {
+      width: 100%;
+      text-align: center; }
+      header .container .header__text h1 {
+        color: #3c3c3c;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 55px;
+        letter-spacing: -0.74px; }
+
+.information {
+  display: flex;
+  align-items: center;
+  border-top: 0.1px solid transparent;
+  width: 100%;
+  height: auto;
+  background-image: url("../images/Bg.png"); }
+  .information .information__blocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 35px 0; }
+    .information .information__blocks .information__block {
+      text-align: center;
+      width: 29%; }
+      .information .information__blocks .information__block .information__photo {
+        margin: 0 auto;
+        object-fit: none;
+        width: 120px;
+        height: 79px; }
+        .information .information__blocks .information__block .information__photo img {
+          object-fit: none; }
+      .information .information__blocks .information__block .information__text {
+        margin-top: 15px;
+        color: #3c3c3c; }
+        .information .information__blocks .information__block .information__text h3 {
+          font-size: 18px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: -0.36px;
+          line-height: 18px; }
+        .information .information__blocks .information__block .information__text p {
+          margin-top: 15px;
+          font-size: 16px;
+          font-weight: 300;
+          letter-spacing: -0.32px; }
+
+.specials {
+  width: 100%;
+  padding: 35px 0; }
+  .specials .specials__blocks {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap; }
+    .specials .specials__blocks .specials__block {
+      display: flex;
+      width: 33.3%;
+      height: 200px; }
+      .specials .specials__blocks .specials__block .specials_photo {
+        width: 50%; }
+      .specials .specials__blocks .specials__block .specials_information {
+        text-align: center;
+        background-color: #ebebeb;
+        font-size: 16px;
+        width: 50%;
+        height: 100%; }
+        .specials .specials__blocks .specials__block .specials_information h4 {
+          margin-top: 30px; }
+        .specials .specials__blocks .specials__block .specials_information .line {
+          margin: 15px auto 0;
+          background-color: #3c3c3c;
+          width: 30%;
+          height: 1px; }
+        .specials .specials__blocks .specials__block .specials_information p {
+          margin-top: 15px;
+          padding: 0 2%; }
+
+.about {
+  border-top: 0.1px solid transparent;
+  background-color: #eeefef;
+  padding: 35px 0; }
+  .about .wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .about .about__information {
+    width: 46%;
+    margin-right: 8%; }
+    .about .about__information h2 {
+      margin: 0; }
+    .about .about__information p {
+      text-align: center;
+      margin-top: 30px;
+      color: #3c3c3c;
+      font-size: 25px;
+      font-weight: 300;
+      letter-spacing: -0.55px; }
+    .about .about__information .signature {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px; }
+      .about .about__information .signature img {
+        width: 200px;
+        object-fit: none; }
+  .about .about__photo {
+    width: 46%; }
+
+.carte {
+  padding: 35px 0; }
+  .carte .container .menu_carte {
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+    justify-content: center; }
+    .carte .container .menu_carte .item {
+      display: block;
+      padding: 20px;
+      border: 1px solid transparent;
+      cursor: pointer; }
+      .carte .container .menu_carte .item:hover {
+        border: 1px solid #3c3c3c; }
+    .carte .container .menu_carte .active {
+      border: 1px solid #3c3c3c; }
+  .carte .container #carte_blocks {
+    position: relative; }
+    .carte .container #carte_blocks .owl-item {
+      height: 180vh; }
+    .carte .container #carte_blocks .owl-nav {
+      display: none; }
+    .carte .container #carte_blocks .item {
+      z-index: 5;
+      width: 100%;
+      opacity: 1;
+      position: absolute;
+      top: 0; }
+    .carte .container #carte_blocks .menu__deserts,
+    .carte .container #carte_blocks .menu__dishes,
+    .carte .container #carte_blocks .menu__drinks,
+    .carte .container #carte_blocks .menu__starters {
+      width: 100%;
+      position: absolute;
+      margin-bottom: 20%;
+      opacity: 1;
+      top: 50%;
+      display: flex;
+      justify-content: space-around;
+      color: #3c3c3c; }
+      .carte .container #carte_blocks .menu__deserts .oglavl,
+      .carte .container #carte_blocks .menu__dishes .oglavl,
+      .carte .container #carte_blocks .menu__drinks .oglavl,
+      .carte .container #carte_blocks .menu__starters .oglavl {
+        padding: 0;
+        margin: 0;
+        list-style-type: none; }
+        .carte .container #carte_blocks .menu__deserts .oglavl li,
+        .carte .container #carte_blocks .menu__dishes .oglavl li,
+        .carte .container #carte_blocks .menu__drinks .oglavl li,
+        .carte .container #carte_blocks .menu__starters .oglavl li {
+          border-bottom: 2px dotted #3c3c3c;
+          /* Необязателен. Здесь задается толщина, тип и цвет точек */
+          position: relative;
+          padding: 0;
+          margin-top: 20px;
+          /* Необязателен. Задается для установки расстояния между блоками li */ }
+          .carte .container #carte_blocks .menu__deserts .oglavl li span,
+          .carte .container #carte_blocks .menu__dishes .oglavl li span,
+          .carte .container #carte_blocks .menu__drinks .oglavl li span,
+          .carte .container #carte_blocks .menu__starters .oglavl li span {
+            background-color: #FFF;
+            /* Это необходимо, чтобы перекрыть точки фоном */
+            margin: 0; }
+          .carte .container #carte_blocks .menu__deserts .oglavl li .text,
+          .carte .container #carte_blocks .menu__dishes .oglavl li .text,
+          .carte .container #carte_blocks .menu__drinks .oglavl li .text,
+          .carte .container #carte_blocks .menu__starters .oglavl li .text {
+            position: relative;
+            margin-right: 7em;
+            /* Задается чтобы текст не заходил на номера страниц */
+            bottom: -5px;
+            text-transform: uppercase;
+            padding-right: 2px;
+            /* Необязателен. Задается чтобы точки не подходили вплотную к концу текста */ }
+          .carte .container #carte_blocks .menu__deserts .oglavl li .page,
+          .carte .container #carte_blocks .menu__dishes .oglavl li .page,
+          .carte .container #carte_blocks .menu__drinks .oglavl li .page,
+          .carte .container #carte_blocks .menu__starters .oglavl li .page {
+            position: absolute;
+            bottom: -5px;
+            right: 0;
+            padding-left: 2px;
+            /* Необязателен. Задается чтобы точки не подходили вплотную к номерам страниц */ }
+      .carte .container #carte_blocks .menu__deserts p,
+      .carte .container #carte_blocks .menu__dishes p,
+      .carte .container #carte_blocks .menu__drinks p,
+      .carte .container #carte_blocks .menu__starters p {
+        font-style: italic;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -0.26px; }
+      .carte .container #carte_blocks .menu__deserts .list__left,
+      .carte .container #carte_blocks .menu__dishes .list__left,
+      .carte .container #carte_blocks .menu__drinks .list__left,
+      .carte .container #carte_blocks .menu__starters .list__left {
+        width: 45%; }
+      .carte .container #carte_blocks .menu__deserts .list__right,
+      .carte .container #carte_blocks .menu__dishes .list__right,
+      .carte .container #carte_blocks .menu__drinks .list__right,
+      .carte .container #carte_blocks .menu__starters .list__right {
+        width: 45%; }
+
+footer {
+  border-top: 0.1px solid transparent;
+  background-image: url("../images/Photo1_copy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  padding: 35px 0; }
+  footer .footer_information {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-right: 0; }
+    footer .footer_information .footer__text {
+      text-align: center;
+      width: 40%; }
+      footer .footer_information .footer__text h2 {
+        margin: 0;
+        color: #3c3c3c;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 55px;
+        letter-spacing: -0.74px; }
+      footer .footer_information .footer__text .footer_address {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+        flex-wrap: wrap; }
+        footer .footer_information .footer__text .footer_address h3 {
+          text-transform: uppercase;
+          font-size: 18px;
+          font-weight: 400; }
+        footer .footer_information .footer__text .footer_address p {
+          font-weight: 400;
+          line-height: 24px; }
+        footer .footer_information .footer__text .footer_address .footer__veggie {
+          width: 47%; }
+          footer .footer_information .footer__text .footer_address .footer__veggie p {
+            margin-top: 10px; }
+        footer .footer_information .footer__text .footer_address .footer__reservations {
+          width: 47%;
+          padding-left: 6%; }
+          footer .footer_information .footer__text .footer_address .footer__reservations p {
+            margin-top: 10px; }
+        footer .footer_information .footer__text .footer_address .footer_contact {
+          margin-top: 30px;
+          text-align: left;
+          width: 100%;
+          /* Firefox 19+ */
+          /* Firefox 18- */ }
+          footer .footer_information .footer__text .footer_address .footer_contact ::-webkit-input-placeholder {
+            color: #3c3c3c;
+            font-style: italic;
+            font-size: 18px; }
+          footer .footer_information .footer__text .footer_address .footer_contact ::-moz-placeholder {
+            color: #3c3c3c;
+            font-style: italic;
+            font-size: 18px; }
+          footer .footer_information .footer__text .footer_address .footer_contact :-moz-placeholder {
+            color: #3c3c3c;
+            font-style: italic;
+            font-size: 18px; }
+          footer .footer_information .footer__text .footer_address .footer_contact :-ms-input-placeholder {
+            color: #3c3c3c;
+            font-style: italic;
+            font-size: 18px; }
+          footer .footer_information .footer__text .footer_address .footer_contact .footer__form {
+            width: 100%;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; }
+            footer .footer_information .footer__text .footer_address .footer_contact .footer__form .footer__email,
+            footer .footer_information .footer__text .footer_address .footer_contact .footer__form .footer__name {
+              width: 44%; }
+            footer .footer_information .footer__text .footer_address .footer_contact .footer__form .footer__message {
+              margin-top: 30px;
+              width: 100%; }
+            footer .footer_information .footer__text .footer_address .footer_contact .footer__form input {
+              color: #3c3c3c;
+              width: calc(100% - 15px);
+              height: 30px;
+              background: transparent;
+              outline: none;
+              border: none;
+              border-bottom: 1px solid #3c3c3c;
+              padding-left: 15px; }
+            footer .footer_information .footer__text .footer_address .footer_contact .footer__form button {
+              margin: 0 auto;
+              background: transparent;
+              outline: none;
+              border: 1px solid #3c3c3c;
+              padding: 17px 28px;
+              cursor: pointer;
+              margin-top: 30px;
+              color: #3c3c3c;
+              font-size: 18px;
+              font-weight: 400; }
+        footer .footer_information .footer__text .footer_address .footer__icons {
+          margin-top: 75px;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          align-self: flex-end; }
+          footer .footer_information .footer__text .footer_address .footer__icons img {
+            width: 25px;
+            height: 25px;
+            border: 1px solid #3c3c3c;
+            padding: 20%; }
+          footer .footer_information .footer__text .footer_address .footer__icons .footer__facebook {
+            margin-right: 3%; }

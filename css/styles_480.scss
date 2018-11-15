@@ -1,0 +1,180 @@
+@media only screen and (max-width: 480px) {
+
+	.symbol {
+		width: 150px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	header {
+
+		#menu {
+			width: 100%;
+		}
+
+		.header_information {
+			right: 4%;
+
+			.header__text {
+
+				width: 100%;
+
+				h1 {
+					font-size: 20px;
+					line-height: 30px;
+				}
+			}
+		}
+	}
+
+	.information {
+
+		.information__blocks {
+
+			.information__block {
+				width: 100%;
+			}
+		}
+	}
+
+	.specials {
+
+		.specials__blocks {
+
+			.specials__block {
+				width: 100%;
+
+				.specials_information {
+
+					h4 {
+						margin-top: 30px;
+					}
+				}
+			}
+		}
+	}
+
+	.about {
+
+		.container {
+
+			.wrap {
+				flex-wrap: wrap;
+
+				.about__information {
+					width: 100%;
+
+					p {
+						font-size: 15px;
+					}
+
+					.signature {
+
+						img {
+							// width: 40%;
+							// height: 9vh;
+						}
+					}
+				}
+
+				.about__photo {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.carte {
+		padding: 25px 0;
+		
+
+		.container {
+
+			.menu_carte {
+	
+				.item {
+					font-size: 14px;
+					display: block;
+					padding: 5px;
+				}
+			}
+	
+			#carte_blocks {
+	
+				.menu__deserts,
+				.menu__dishes,
+				.menu__drinks,
+				.menu__starters {
+					justify-content: center;
+					flex-wrap: wrap;
+	
+					p {
+						margin-top: 5px;
+						font-size: 11px;
+					}
+	
+					.oglavl {
+	
+						li {
+							border-bottom: 1px dotted #3c3c3c;
+							margin-top: 10px;
+	
+							.text {
+								font-size: 14px;
+							}
+	
+							.page {
+								font-size: 13px;
+							}
+						}
+					}
+	
+					.list__left {
+						width: 100%;
+					}
+	
+					.list__right {
+						width: 100%;
+					}
+				}
+			}
+		}
+	
+	}
+
+	footer {
+
+			.footer_information {
+
+				.footer__text {
+
+					.footer_address {
+						justify-content: center;
+						text-align: center;
+
+						.footer__veggie {
+							width: 100%;
+						}
+
+						.footer__reservations {
+							margin-top: 25px;
+							width: 100%;
+							padding-left: 0;
+						}
+						
+						.footer_contact {
+							text-align: center;
+						}
+	
+						.footer__icons {
+							margin-top: 25px;
+						}
+					}
+
+				}
+			}
+
+	}
+}

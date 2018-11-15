@@ -1,0 +1,85 @@
+@media only screen and (max-width: 480px) {
+  .symbol {
+    width: 150px; }
+    .symbol img {
+      width: 100%; }
+  header #menu {
+    width: 100%; }
+  header .header_information {
+    right: 4%; }
+    header .header_information .header__text {
+      width: 100%; }
+      header .header_information .header__text h1 {
+        font-size: 20px;
+        line-height: 30px; }
+  .information .information__blocks .information__block {
+    width: 100%; }
+  .specials .specials__blocks .specials__block {
+    width: 100%; }
+    .specials .specials__blocks .specials__block .specials_information h4 {
+      margin-top: 30px; }
+  .about .container .wrap {
+    flex-wrap: wrap; }
+    .about .container .wrap .about__information {
+      width: 100%; }
+      .about .container .wrap .about__information p {
+        font-size: 15px; }
+    .about .container .wrap .about__photo {
+      width: 100%; }
+  .carte {
+    padding: 25px 0; }
+    .carte .container .menu_carte .item {
+      font-size: 14px;
+      display: block;
+      padding: 5px; }
+    .carte .container #carte_blocks .menu__deserts,
+    .carte .container #carte_blocks .menu__dishes,
+    .carte .container #carte_blocks .menu__drinks,
+    .carte .container #carte_blocks .menu__starters {
+      justify-content: center;
+      flex-wrap: wrap; }
+      .carte .container #carte_blocks .menu__deserts p,
+      .carte .container #carte_blocks .menu__dishes p,
+      .carte .container #carte_blocks .menu__drinks p,
+      .carte .container #carte_blocks .menu__starters p {
+        margin-top: 5px;
+        font-size: 11px; }
+      .carte .container #carte_blocks .menu__deserts .oglavl li,
+      .carte .container #carte_blocks .menu__dishes .oglavl li,
+      .carte .container #carte_blocks .menu__drinks .oglavl li,
+      .carte .container #carte_blocks .menu__starters .oglavl li {
+        border-bottom: 1px dotted #3c3c3c;
+        margin-top: 10px; }
+        .carte .container #carte_blocks .menu__deserts .oglavl li .text,
+        .carte .container #carte_blocks .menu__dishes .oglavl li .text,
+        .carte .container #carte_blocks .menu__drinks .oglavl li .text,
+        .carte .container #carte_blocks .menu__starters .oglavl li .text {
+          font-size: 14px; }
+        .carte .container #carte_blocks .menu__deserts .oglavl li .page,
+        .carte .container #carte_blocks .menu__dishes .oglavl li .page,
+        .carte .container #carte_blocks .menu__drinks .oglavl li .page,
+        .carte .container #carte_blocks .menu__starters .oglavl li .page {
+          font-size: 13px; }
+      .carte .container #carte_blocks .menu__deserts .list__left,
+      .carte .container #carte_blocks .menu__dishes .list__left,
+      .carte .container #carte_blocks .menu__drinks .list__left,
+      .carte .container #carte_blocks .menu__starters .list__left {
+        width: 100%; }
+      .carte .container #carte_blocks .menu__deserts .list__right,
+      .carte .container #carte_blocks .menu__dishes .list__right,
+      .carte .container #carte_blocks .menu__drinks .list__right,
+      .carte .container #carte_blocks .menu__starters .list__right {
+        width: 100%; }
+  footer .footer_information .footer__text .footer_address {
+    justify-content: center;
+    text-align: center; }
+    footer .footer_information .footer__text .footer_address .footer__veggie {
+      width: 100%; }
+    footer .footer_information .footer__text .footer_address .footer__reservations {
+      margin-top: 25px;
+      width: 100%;
+      padding-left: 0; }
+    footer .footer_information .footer__text .footer_address .footer_contact {
+      text-align: center; }
+    footer .footer_information .footer__text .footer_address .footer__icons {
+      margin-top: 25px; } }

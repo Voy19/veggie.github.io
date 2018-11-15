@@ -1,0 +1,180 @@
+@media only screen and (max-width: 768px) {
+	h2 {
+		font-size: 25px;
+	}
+
+	.symbol {
+		height: 25px;
+		margin-top: 15px;
+	}
+
+	header {
+
+		#menu {
+			top: 0;
+			right: 0;
+			z-index: 20;
+			position: absolute;
+			width: 50%;
+
+			ul {
+				background-color: rgba(251, 252, 254, 0.8);
+				opacity: 0.98;
+				width: 100%;
+				margin-top: 58px;
+				flex-direction: column;
+
+				li {
+					display: none;
+					text-align: center;
+					border-radius: 0;
+				}
+
+
+				.icon {
+					opacity: 1;
+					display: block;
+					position: absolute;
+					right: 0;
+					top: 10px;
+					border-radius: 10px;
+					background-color: rgba(251, 252, 254, 0.8);
+					padding: 0 5px;
+					-webkit-border-radius: 10px;
+					-moz-border-radius: 10px;
+					-ms-border-radius: 10px;
+					-o-border-radius: 10px;
+
+					a {
+
+						&:last-child {
+							border: none;
+
+							&:hover {
+								border: none;
+							}
+						}
+					}
+				}
+			}
+
+			.responsive {
+				li {
+					position: relative;
+					display: block;
+				}
+
+				li:last-child {
+					background-color: none;
+				}
+
+				.icon {
+					position: absolute;
+					top: 10px;
+					right: 0;
+				}
+			}
+		}
+
+		.header_information {
+			right: 7%;
+
+			.header__text {
+
+				width: 100%;
+
+				h1 {
+					font-size: 25px;
+					line-height: 35px;
+				}
+			}
+		}
+
+	}
+
+	.information {
+		
+		.information__blocks {
+			justify-content: space-between;
+			padding: 0;
+			padding-top: 25px;
+
+			.information__block {
+				width: 44%;
+				margin-bottom: 25px;
+			}
+		}
+	}
+
+	.specials {
+
+		.specials__blocks {
+
+			.specials__block {
+				width: 100%;
+
+				.specials_information {
+
+					h4 {
+						margin-top: 60px;
+					}
+				}
+			}
+		}
+	}
+
+	.about {
+
+		.wrap {
+			flex-wrap: wrap;
+
+			.about__information {
+				width: 100%;
+				margin-right: 0;
+
+				p {
+					margin-top: 15px;
+				}
+
+				.signature {
+					margin-top: 20px;
+				}
+			}
+
+			.about__photo {
+				margin-top: 10px;
+				width: 80%;
+			}
+		}
+	}
+
+	.carte {
+
+		.container {
+
+			.menu_carte {
+				font-size: 19px;
+
+				.item {
+					padding: 10px;
+				}
+			}
+		}
+	}
+
+	footer {
+
+		.container {
+
+			.footer_information {
+
+				.footer__text {
+
+					.footer__icons {
+						margin-top: 40px;
+					}
+				}
+			}
+		}
+	}
+}

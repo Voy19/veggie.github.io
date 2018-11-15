@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1200px) {
+   .specials {
+
+      .specials__blocks {
+
+         .specials__block {
+
+            .specials_information {
+               font-size: 14px;
+            }
+         }
+      }
+   }
+
+   .about {
+
+      .about__information {
+
+         p {
+            font-size: 21px;
+         }
+      }
+   }
+
+   footer {
+
+      .footer_information {
+   
+         .footer__text {
+            text-align: center;
+            width: 50%;
+        }
+      }
+   }
+}

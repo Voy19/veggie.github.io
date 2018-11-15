@@ -1,0 +1,544 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+}
+
+h2 {
+	text-align: center;
+	color: #3c3c3c;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 55px;
+	letter-spacing: -0.74px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.symbol {
+	margin: 0 auto;
+	width: 253px;
+	height: 33px;
+	margin-top: 20px;
+}
+
+.menu {
+	display: flex;
+
+	ul {
+		li {
+			display: inline-block;
+
+			a {
+				display: block;
+				padding: 16px 24px 14px;
+				color: #3c3c3c;
+				font-size: 18px;
+				font-weight: 400;
+				text-decoration: none;
+				border: 1px solid transparent;
+
+				&:hover {
+					border: 1px solid #3c3c3c;
+				}
+			}
+		}
+	}
+}
+
+.container {
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+header {
+	border-top: 0.1px solid transparent;
+	background-image: url("../images/foodiesfeed.com__decorative-pumpkins5.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+
+	.container {
+		position: relative;
+		height: 100vh;
+
+		.header {
+			margin-top: 30px;
+	
+			.menu {
+				justify-content: flex-end;
+	
+				.icon {
+					display: none;
+				}
+			}
+		}
+	
+		.header_information {
+			position: absolute;
+			top: 50%;
+			right: 5%;
+			transform: translateY(-50%);
+			display: flex;
+			justify-content: flex-end;
+			align-items: flex-end;
+		}
+	
+		.header__text {
+			width: 100%;
+			text-align: center;
+	
+			h1 {
+				color: #3c3c3c;
+				font-size: 40px;
+				font-weight: 300;
+				line-height: 55px;
+				letter-spacing: -0.74px;
+			}
+		}
+	}
+
+}
+
+.information {
+	display: flex;
+	align-items: center;
+	border-top: 0.1px solid transparent;
+	width: 100%;
+	height: auto;
+	background-image: url("../images/Bg.png");
+
+	.information__blocks {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 35px 0;
+
+		.information__block {
+			text-align: center;
+			width: 29%;
+
+			.information__photo {
+				margin: 0 auto;
+				object-fit: none;
+				width: 120px;
+				height: 79px;
+
+				img {
+					object-fit: none;
+				}
+			}
+
+			.information__text {
+				margin-top: 15px;
+				color: #3c3c3c;
+
+				h3 {
+					font-size: 18px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: -0.36px;
+					line-height: 18px;
+				}
+
+				p {
+					margin-top: 15px;
+					font-size: 16px;
+					font-weight: 300;
+					letter-spacing: -0.32px;
+				}
+			}
+		}
+	}
+}
+
+.specials {
+	width: 100%;
+	padding: 35px 0;
+
+	.specials__blocks {
+		margin-top: 30px;
+		display: flex;
+		flex-wrap: wrap;
+
+		.specials__block {
+			display: flex;
+			width: 33.3%;
+			height: 200px;
+
+			.specials_photo {
+				width: 50%;
+			}
+
+			.specials_information {
+				text-align: center;
+				background-color: #ebebeb;
+				font-size: 16px;
+				width: 50%;
+				height: 100%;
+
+				h4 {
+					margin-top: 30px;
+				}
+
+				.line {
+					margin: 15px auto 0;
+					background-color: #3c3c3c;
+					width: 30%;
+					height: 1px;
+				}
+
+				p {
+					margin-top: 15px;
+					padding: 0 2%;
+				}
+			}
+		}
+	}
+}
+
+.about {
+	border-top: 0.1px solid transparent;
+	background-color: #eeefef;
+	padding: 35px 0;
+
+	.wrap {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.about__information {
+		width: 46%;
+		margin-right: 8%;
+
+		h2 {
+			margin: 0;
+		}
+
+		p {
+			text-align: center;
+			margin-top: 30px;
+			color: #3c3c3c;
+			font-size: 25px;
+			font-weight: 300;
+			letter-spacing: -0.55px;
+		}
+
+		.signature {
+			display: flex;
+			justify-content: flex-end;
+			margin-top: 20px;
+
+			img {
+				width: 200px;
+				object-fit: none;
+			}
+		}
+	}
+
+	.about__photo {
+		width: 46%;
+	}
+}
+
+.carte {
+	padding: 35px 0;
+
+	.container {
+
+		.menu_carte {
+			display: flex;
+			font-size: 20px;
+			margin-top: 20px;
+			justify-content: center;
+	
+			.item {
+				display: block;
+				padding: 20px;
+				border: 1px solid transparent;
+				cursor: pointer;
+	
+				&:hover {
+					border: 1px solid #3c3c3c;
+				}
+			}
+
+			.active {
+				border: 1px solid #3c3c3c;
+			}
+		}
+	
+		#carte_blocks {
+			position: relative;
+			
+			.owl-item {
+				// z-index: -5;
+				height: 180vh;
+			}
+			
+			.owl-nav {
+				display: none;
+			}
+	
+			.item {
+				z-index: 5;
+				width: 100%;
+				opacity: 1;
+				position: absolute;
+				top: 0;
+			}
+	
+			.menu__deserts,
+			.menu__dishes,
+			.menu__drinks,
+			.menu__starters {
+				width: 100%;
+				position: absolute;
+				margin-bottom: 20%;
+				opacity: 1;
+				top: 50%;
+				display: flex;
+				justify-content: space-around;
+				color: #3c3c3c;
+	
+				.oglavl {
+					padding: 0;
+					margin: 0;
+					list-style-type: none;
+	
+					li {
+						border-bottom: 2px dotted #3c3c3c;
+						/* Необязателен. Здесь задается толщина, тип и цвет точек */
+						position: relative;
+						padding: 0;
+						margin-top: 20px;
+	
+						/* Необязателен. Задается для установки расстояния между блоками li */
+						span {
+							background-color: #FFF;
+							/* Это необходимо, чтобы перекрыть точки фоном */
+							margin: 0;
+						}
+	
+						.text {
+							position: relative;
+							margin-right: 7em;
+							/* Задается чтобы текст не заходил на номера страниц */
+							bottom: -5px;
+							text-transform: uppercase;
+							padding-right: 2px;
+							/* Необязателен. Задается чтобы точки не подходили вплотную к концу текста */
+						}
+	
+						.page {
+							position: absolute;
+							bottom: -5px;
+							right: 0;
+							padding-left: 2px;
+							/* Необязателен. Задается чтобы точки не подходили вплотную к номерам страниц */
+						}
+					}
+				}
+	
+				p {
+					font-style: italic;
+					margin-top: 10px;
+					font-size: 14px;
+					font-weight: 400;
+					letter-spacing: -0.26px;
+				}
+	
+				.list__left {
+					width: 45%;
+				}
+	
+				.list__right {
+					width: 45%;
+				}
+			}
+		}
+	}
+
+}
+
+footer {
+	border-top: 0.1px solid transparent;
+	background-image: url("../images/Photo1_copy.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	width: 100%;
+	padding: 35px 0;
+
+	.footer_information {
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+		flex-wrap: wrap;
+		margin-right: 0;
+
+		.footer__text {
+			text-align: center;
+			width: 40%;
+
+			h2 {
+				margin: 0;
+				color: #3c3c3c;
+				font-size: 40px;
+				font-weight: 300;
+				line-height: 55px;
+				letter-spacing: -0.74px;
+			}
+
+			.footer_address {
+				margin-top: 30px;
+				width: 100%;
+				display: flex;
+				justify-content: flex-start;
+				text-align: left;
+				flex-wrap: wrap;
+
+				h3 {
+					text-transform: uppercase;
+					font-size: 18px;
+					font-weight: 400;
+				}
+
+				p {
+					font-weight: 400;
+					line-height: 24px;
+				}
+
+				.footer__veggie {
+					width: 47%;
+
+					p {
+						margin-top: 10px;
+					}
+				}
+
+				.footer__reservations {
+					width: 47%;
+					padding-left: 6%;
+
+					p {
+						margin-top: 10px;
+					}
+				}
+
+				.footer_contact {
+					margin-top: 30px;
+					text-align: left;
+					width: 100%;
+
+					::-webkit-input-placeholder {
+						color: #3c3c3c;
+						font-style: italic;
+						font-size: 18px;
+					}
+
+					::-moz-placeholder {
+						color: #3c3c3c;
+						font-style: italic;
+						font-size: 18px;
+					}
+
+					/* Firefox 19+ */
+					:-moz-placeholder {
+						color: #3c3c3c;
+						font-style: italic;
+						font-size: 18px;
+					}
+
+					/* Firefox 18- */
+					:-ms-input-placeholder {
+						color: #3c3c3c;
+						font-style: italic;
+						font-size: 18px;
+					}
+
+					.footer__form {
+						width: 100%;
+						margin-top: 15px;
+						display: flex;
+						justify-content: space-between;
+						flex-wrap: wrap;
+
+						.footer__email,
+						.footer__name {
+							width: 44%;
+						}
+
+						.footer__message {
+							margin-top: 30px;
+							width: 100%;
+						}
+
+						input {
+							color: #3c3c3c;
+							width: calc(100% - 15px);
+							height: 30px;
+							background: transparent;
+							outline: none;
+							border: none;
+							border-bottom: 1px solid #3c3c3c;
+							padding-left: 15px;
+						}
+
+						button {
+							margin: 0 auto;
+							background: transparent;
+							outline: none;
+							border: 1px solid #3c3c3c;
+							padding: 17px 28px;
+							cursor: pointer;
+							margin-top: 30px;
+							color: #3c3c3c;
+							font-size: 18px;
+							font-weight: 400;
+						}
+					}
+				}
+
+				.footer__icons {
+					margin-top: 75px;
+					width: 100%;
+					display: flex;
+					justify-content: flex-end;
+					align-items: flex-end;
+					align-self: flex-end;
+
+					img {
+						width: 25px;
+						height: 25px;
+						border: 1px solid #3c3c3c;
+						padding: 20%;
+					}
+
+					.footer__facebook {
+						margin-right: 3%;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
